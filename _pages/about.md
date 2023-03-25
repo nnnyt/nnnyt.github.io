@@ -6,8 +6,8 @@ subtitle: M.S. student at <a href='https://www.ustc.edu.cn'>University of Scienc
 
 profile:
   align: right
-  image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image: photo.jpg
+  image_circular: true # crops the image to make it circular
   address: >
     
 news: true  # includes a list of news items
