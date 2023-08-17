@@ -15,6 +15,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postgraduate of computer science in the School of Computer Science, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn), and a member of the [BASE Group](http://base.ustc.edu.cn) of [BDAA Lab](http://bigdata.ustc.edu.cn). I am advised by Prof. [Enhong Chen](http://staff.ustc.edu.cn/~cheneh/). Before that, I received my bachelor's degree in Computer Science from the University of Science and Technology of China in 2021.
+I am a final-year master student in the School of Computer Science, [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn), and a member of the [BASE Group](http://base.ustc.edu.cn) of [BDAA Lab](http://bigdata.ustc.edu.cn). I am advised by Prof. [Enhong Chen](http://staff.ustc.edu.cn/~cheneh/). Before that, I received my bachelor's degree in Computer Science from the University of Science and Technology of China in 2021.
+
+I am currently a visiting graduate student in [INK Lab](https://inklab.usc.edu/), University of Southern California, working with Prof. [Xiang Ren](https://shanzhenren.github.io/).
 
 My current research interests include natural language processing, data mining and intelligent education.
+
+<!-- For more details, please refer to my [CV](). -->

@@ -1,47 +1,65 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Yuting Ning
-    - name: Location
-      value: Hefei, China
-    - name: Languages
-      value: Chinese, English
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Yuting Ning
+#     - name: Location
+#       value: Hefei, China
+#     - name: Languages
+#       value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: M.S. in Computer Science
-      institution: University of Science and Technology of China (USTC), Hefei, China
+    - title: University of Science and Technology of China
+      institution: M.S. in Computer Science
       year: 2024 (expected)
       description:
         - Advised by Prof. <a href="http://staff.ustc.edu.cn/~cheneh/">Enhong Chen</a>.
-    - title: B.S in Computer Science
-      institution: University of Science and Technology of China (USTC), Hefei, China
+    - title: University of Science and Technology of China
+      institution: B.S in Computer Science
       year: 2021
       description:
 
 - title: Experience
   type: time_table
   contents:
+    - title: Visiting Graduate Student
+      institution: University of Southern California, Los Angeles, California
+      year: 2023.7-now
+      description:
+      - 'Advised by Prof. <a href="https://shanzhenren.github.io">Xiang Ren</a>.'
+
     - title: Research Assistant
-      institution: University of Science and Technology of China (USTC), Hefei, China
-      year: 2021-now
+      institution: University of Science and Technology of China, Hefei, China
+      year: 2021.9-now
       description:
       - 'Advised by Prof. <a href="http://staff.ustc.edu.cn/~cheneh/">Enhong Chen</a>.'
 
     - title: Research Intern
-      institution: Social Computing Group, Microsoft Research Asia, Beijing, China
-      year: July. - Dec. 2020
+      institution: Microsoft Research Asia, Beijing, China
+      year: 2020.07-2020.12
       description:
         - 'Mentor: Dr. <a href="https://www.microsoft.com/en-us/research/people/xingx/">Xing Xie</a> and Dr. <a href="https://www.microsoft.com/en-us/research/people/fangzwu/">Fangzhao Wu</a>.'
+    
+    - title: Undergraduate Research Assistant
+      institution: University of Science and Technology of China, Hefei, China
+      year: 2020.03-2020.07
+      description:
+        - 'Advised by Prof. <a href="http://staff.ustc.edu.cn/~qiliuql/">Qi Liu</a>.'
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/bigdata-ustc/EduNLP">EduNLP</a>
-      year: 2021-now
-      description: A library for advanced Natural Language Processing towards multi-modal educational items.
+      year: 2021.09-now
+      description: A library for unified and advanced Natural Language Processing towards educational resources.
+    - title: <a href="https://luna.bdaa.pro">Intelligent Education Knowledge Graph (LUNA)</a>
+      year: 2021.02-now
+      description: Aiming to analyze massive educational resources deeply and provide intelligent education services.
+    - title: <a href=https://github.com/nnnyt/MIND>News Recommendation</a>
+      year: 2021.06-2021.07
+      description: Implemented several news classification and recommendation methods in both PyTorch and Keras.
 
 - title: Honors and Awards
   type: time_table
@@ -50,18 +68,18 @@
       items: 
         - 3rd place in the NeurIPS NL4Opt Competition
         - 'Silver medal in Kaggle competition: Feedback Prize - Evaluating Student Writing (top 5%)'
-        - First Prize of Postgraduate Scholarship
+        - First Prize Academic Scholarship, USTC
     - year: 2021
       items: 
-        - First Prize of Postgraduate Scholarship
-        - Top 5% Outstanding Graduates of USTC
+        - First Prize Academic Scholarship, USTC
+        - Top 5% Outstanding Graduates, USTC
         - Outstanding Graduates of Anhui Province
     - year: 2020
       items: 
-        - Baosteel Outstanding Student Scholarship
+        - Baosteel Outstanding Student Scholarship (1/1800+ in USTC)
     - year: 2019
       items:
-        - China National Scholarship
-    - year: 2018
-      items:
-        - Gold Award for Outstanding Student Scholarship, USTC
+        - China National Scholarship (highest scholarship from Ministry of Education of China)
+    # - year: 2018
+    #   items:
+    #     - Gold Award for Outstanding Student Scholarship, USTC
