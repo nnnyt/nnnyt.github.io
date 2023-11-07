@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: <a href='https://scholar.google.com/citations?user=HYmzF-QAAAAJ'><u>Google Scholar</u></a>
 years: [2023, 2021]
 nav: true

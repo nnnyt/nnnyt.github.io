@@ -16,6 +16,10 @@ table {
   td, th {
     color: var(--global-text-color);
   }
+  th{
+    width: 6rem;
+    vertical-align: middle !important;
+  }
   td {
     font-size: 1rem;
   }
