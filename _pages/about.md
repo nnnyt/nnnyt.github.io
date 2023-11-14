@@ -21,6 +21,6 @@ Before that, I received my bachelor's degree in Computer Science from the Univer
 
 My research interests lie in natural language processing, data mining and intelligent education. As for now, I am especially interested in reasoning, generation and evaluation of LLMs. I am also interested in concrete application domains, such as NLP for math and education.
 
-📣 **I am actively looking for PhD postions starting in Fall 2024!**
+📣 **I am actively looking for PhD positions starting in Fall 2024!**
 
 <!-- For more details, please refer to my [CV](). -->
