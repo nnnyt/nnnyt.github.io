@@ -1,88 +1,97 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Yuting Ning
-#     - name: Location
-#       value: Hefei, China
-#     - name: Languages
-#       value: Chinese, English
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: University of Science and Technology of China
-      institution: M.S. in Computer Science
-      year: 2024 (expected)
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Advised by Prof. <a href="http://staff.ustc.edu.cn/~cheneh/">Enhong Chen</a>.
-    - title: University of Science and Technology of China
-      institution: B.S in Computer Science
-      year: 2021
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
+        - Description 1.
+        - Description 2.
 
-- title: Research Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Visiting Graduate Student
-      institution: University of Southern California, Los Angeles, California
-      year: 2023.7-now
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-      - 'Advised by Prof. <a href="https://shanzhenren.github.io">Xiang Ren</a>.'
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
-    - title: Research Assistant
-      institution: University of Science and Technology of China, Hefei, China
-      year: 2021.9-now
-      description:
-      - 'Advised by Prof. <a href="http://staff.ustc.edu.cn/~cheneh/">Enhong Chen</a>.'
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
-    - title: Research Intern
-      institution: Microsoft Research Asia, Beijing, China
-      year: 2020.07-2020.12
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
       description:
-        - 'Mentor: Dr. <a href="https://www.microsoft.com/en-us/research/people/xingx/">Xing Xie</a> and Dr. <a href="https://www.microsoft.com/en-us/research/people/fangzwu/">Fangzhao Wu</a>.'
-    
-    - title: Undergraduate Research Assistant
-      institution: University of Science and Technology of China, Hefei, China
-      year: 2020.03-2020.07
-      description:
-        - 'Advised by Prof. <a href="http://staff.ustc.edu.cn/~qiliuql/">Qi Liu</a>.'
 
-- title: Projects
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/bigdata-ustc/EduNLP">EduNLP</a>
-      year: 2021.09-now
-      description: A library for unified and advanced Natural Language Processing towards educational resources.
-    - title: <a href="https://luna.bdaa.pro">Intelligent Education Knowledge Graph (LUNA)</a>
-      year: 2021.02-now
-      description: Aiming to analyze massive educational resources deeply and provide intelligent education services.
-    - title: <a href=https://github.com/nnnyt/MIND>News Recommendation</a>
-      year: 2021.06-2021.07
-      description: Implemented several news classification and recommendation methods in both PyTorch and Keras.
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023
+    - year: 1921
       items:
-        - First Prize Academic Scholarship, USTC
-    - year: 2022
-      items: 
-        - 3rd place in the NeurIPS NL4Opt Competition
-        - 'Silver medal in Kaggle competition: Feedback Prize - Evaluating Student Writing (top 5%)'
-        - First Prize Academic Scholarship, USTC
-    - year: 2021
-      items: 
-        - First Prize Academic Scholarship, USTC
-        - Top 5% Outstanding Graduates, USTC
-        - Outstanding Graduates of Anhui Province
-    - year: 2020
-      items: 
-        - Baosteel Outstanding Student Scholarship (1/1800+ in USTC)
-    - year: 2019
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
       items:
-        - China National Scholarship (highest scholarship from Ministry of Education of China)
-    # - year: 2018
-    #   items:
-    #     - Gold Award for Outstanding Student Scholarship, USTC
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

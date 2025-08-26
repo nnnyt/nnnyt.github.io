@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+
+    <script>function toggleblock(blockId) {
+      var block = document.getElementById(blockId);
+      if (block.style.display == 'none') {
+        block.style.display = 'block';
+      } else {
+        block.style.display = 'none';
+      }
+    }</script>
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == 'right' %}
+          <div class="row">
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+          </div>
+        {% else %}
+          <div class="row">
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+          </div>
+        {% endif %}
+      {% else %}
+        {{ content }}
+        <a href="javascript:toggleblock('notice')" style="text-align:center;font-size:70%;color:#808080">▶
+          nnnyt.github.io's clustrmaps 🌎</a>
+        <div id="notice" style="display: none; color: rgb(222, 222, 222); font-size: 0.5em;">
+          <p>
+            <a href="https://clustrmaps.com/site/1bwaw"
+              title="Visit tracker for nnnyt.github.io"><img
+                src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=pMaqZ_7Y5KyI9SCxGgwQ9eEJp4pg947hBv28B4ommKY" /></a>
+        </p>
+        </div> 
+      {% endif %}
+    </div>
+
+    <!-- Footer -->
+    {% include footer.liquid %}
+
+    <!-- JavaScripts -->
+    {% include scripts.liquid %}
+  </body>
+</html>

@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nnnyt
+
+repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - bigdata-ustc/EduNLP
+  - bigdata-ustc/EduCAT
+  - nnnyt/QuesCo
+  - OSU-NLP-Group/Mind2Web-2
+  - INK-USC/LINK

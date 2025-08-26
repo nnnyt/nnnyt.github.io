@@ -2,17 +2,19 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <a href='https://scholar.google.com/citations?user=HYmzF-QAAAAJ'><u>Google Scholar</u></a>
-years: [2025, 2024, 2023, 2021]
+description: Check out my full list of publications on my <a href='https://scholar.google.com/citations?user=HYmzF-QAAAAJ'><u>Google Scholar</u></a>. (* indicates equal contribution)
 nav: true
-nav_order: 1
+nav_order: 2
 ---
+
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+{% bibliography %}
 
 </div>

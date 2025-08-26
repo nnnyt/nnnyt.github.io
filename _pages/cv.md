@@ -1,14 +1,11 @@
 ---
-# layout: cv
-# permalink: /cv/
-# title: CV
-# nav: true
-# nav_order: 2
-# description: For more details, please refer to my latest <a href='https://nnnyt.github.io/assets/pdf/CV_YutingNing.pdf'><u>CV</u></a>.
-# cv_pdf: CV_YutingNing.pdf
-layout: page
+layout: cv
+permalink: /assets/pdf/CV_YutingNing.pdf
 title: CV
 nav: true
-nav_order: 2
-permalink: /assets/pdf/CV_YutingNing.pdf
+nav_order: 5
+cv_pdf: CV_YutingNing.pdf # you can also use external links here
+description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+toc:
+  sidebar: left
 ---
