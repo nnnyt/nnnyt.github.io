@@ -14,14 +14,16 @@
     {% endif %}
     {% include head.liquid %}
 
-    <script>function toggleblock(blockId) {
-      var block = document.getElementById(blockId);
-      if (block.style.display == 'none') {
-        block.style.display = 'block';
-      } else {
-        block.style.display = 'none';
+    <script>
+      function toggleblock(blockId) {
+        var block = document.getElementById(blockId);
+        if (block.style.display == 'none') {
+          block.style.display = 'block';
+        } else {
+          block.style.display = 'none';
+        }
       }
-    }</script>
+    </script>
   </head>
 
   <!-- Body -->
@@ -53,15 +55,17 @@
         {% endif %}
       {% else %}
         {{ content }}
-        <a href="javascript:toggleblock('notice')" style="text-align:center;font-size:70%;color:#808080">▶
-          nnnyt.github.io's clustrmaps 🌎</a>
+        <a href="javascript:toggleblock('notice')" style="text-align:center;font-size:70%;color:#808080">▶ nnnyt.github.io's clustrmaps 🌎</a>
         <div id="notice" style="display: none; color: rgb(222, 222, 222); font-size: 0.5em;">
           <p>
-            <a href="https://clustrmaps.com/site/1bwaw"
-              title="Visit tracker for nnnyt.github.io"><img
-                src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=pMaqZ_7Y5KyI9SCxGgwQ9eEJp4pg947hBv28B4ommKY" /></a>
-        </p>
-        </div> 
+            <a
+              href="https://clustrmaps.com/site/1bwaw"
+              title="Visit tracker for nnnyt.github.io"
+              ><img
+                src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=pMaqZ_7Y5KyI9SCxGgwQ9eEJp4pg947hBv28B4ommKY"
+            ></a>
+          </p>
+        </div>
       {% endif %}
     </div>
 
