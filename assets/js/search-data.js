@@ -86,6 +86,9 @@ ninja.data = [{
           section: "News",},{id: "news-mind2web-2-is-released-a-rigorous-agentic-search-benchmark-with-long-horizon-tasks-and-agent-as-a-judge-evaluation",
           title: '🔍 Mind2Web 2 is released! A rigorous agentic search benchmark with long-horizon tasks...',
           description: "",
+          section: "News",},{id: "news-glad-to-share-mind2web-2-is-accepted-to-neurips-2025-see-you-in-san-diego",
+          title: 'Glad to share 🔍 Mind2Web 2 is accepted to NeurIPS 2025! See you...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
