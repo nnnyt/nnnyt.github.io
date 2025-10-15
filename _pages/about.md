@@ -26,4 +26,7 @@ latest_posts:
 
 I am a second-year PhD student at [The Ohio State University (OSU)](https://cse.osu.edu/), advised by Prof. [Huan Sun](https://u.osu.edu/ihudas/people/). Previously, I obtained my Master's and Bachelor's degrees from [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn), advised by Prof. [Enhong Chen](http://staff.ustc.edu.cn/~cheneh/).
 
-I am broadly interested in NLP and related fields, especially Language Agents and reasoning of Large Language Models.
+I am broadly interested in NLP and related fields. My current research focuses on **language agents**, with the goal of building and trustworthy AI agents that can reliably assist humans by automating complex or tedious tasks. Recently, my work has explored world model–based planning for web agents ([WebDreamer](https://arxiv.org/pdf/2411.06559)), evaluation of agents on long-horizon web search tasks ([Mind2Web 2](https://osu-nlp-group.github.io/Mind2Web-2/)) and scientific discovery tasks ([ScienceAgentBench](https://osu-nlp-group.github.io/ScienceAgentBench/)), and agent safety.
+
+
+Feel free to reach out if you are interested in my research or potential collaborations.
