@@ -30,3 +30,5 @@ I am broadly interested in NLP and related fields. My current research focuses o
 
 
 Feel free to reach out if you are interested in my research or potential collaborations.
+
+📢 <span style="color:#f29105;font-weight: bold;">I am looking for a research internship for Summer 2026. Feel free to reach out if you have any opportunities!</span>
